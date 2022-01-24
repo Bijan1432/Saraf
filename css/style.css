@@ -122,7 +122,7 @@ nav ul{
     border-style: none;
 }
 .navbar-brand {
-    max-width: 95px;
+    max-width: 130px;
     padding: 5px 5px;
 }
 .nav-extended {
@@ -144,7 +144,7 @@ nav ul{
 /*banner*/
 
 .banner{
-  background-image: url(../images/new_banner.jpg);
+  background-image: url(https://via.placeholder.com/1919x539);
   height: 700px;
   padding-top: 100px 10px;
   background-color: rgba(0,0,0,0.4);
@@ -816,4 +816,8 @@ li{
 
 
 
+}
+
+.padbot3 img{
+	margin-bottom: 10px;
 }
