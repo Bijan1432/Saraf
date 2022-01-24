@@ -144,7 +144,7 @@ nav ul{
 /*banner*/
 
 .banner{
-  background-image: url(images/new_banner.jpg);
+  background-image: url(../images/new_banner.jpg);
   height: 700px;
   padding-top: 100px 10px;
   background-color: rgba(0,0,0,0.4);
@@ -541,7 +541,7 @@ nav{
 }
 
 .text{
-	margin-top: ;
+	margin-top:8rem ;
 	padding:5px 5px;
 }
 
