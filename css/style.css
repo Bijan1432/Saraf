@@ -9,7 +9,7 @@ body{
 } 
 
 .padtop{
-   padding-top:80px;
+   padding-top:40px;
 }
 
 .padbot{
@@ -244,7 +244,8 @@ textarea{
 .box-float{
 	background-color: #f1f1f1; 
 	height: 100px;
-	margin-top: 100px; 
+	/* margin-top: 100px;  */
+	margin-bottom: 80px;
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 	padding: 20px;
 	border-radius: 5px;
@@ -290,7 +291,7 @@ textarea{
 .panel{
 	margin-bottom: 50px;
 	padding: 10px;
-	height: 300px;
+	height: 350px;
 }
 
 .panel p{
@@ -864,12 +865,84 @@ li{
 	font-weight: bold;
 	color:var(--color-blue) ;
 }
-strong{
+/* strong{
 	color:var(--color-blue) ;
-}
+} */
 .section-media h1{
 	color:var(--color-blue) ;
 }
 .section-media h4{
-	color:var(--color-blue) ;
+	color: #f26522 ;
+}
+/* -----------price------------- */
+.price{
+	margin: 10% 0;
+}
+.price li{
+	list-style: none;
+	position: relative;
+}
+.pcard1{
+	background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    height: 350px;
+    padding: 30px 10px;
+    text-align: center;
+    margin-left: 14%;
+	box-shadow: 0px 0px 15px -4px rgb(92, 91, 91);
+
+}
+.pcard2{
+	background-color: var(--color-blue);
+    color: #fff;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    padding: 12px 15px;
+    /* transform: translate(-40%,-50%); */
+    transform: translate(-43%,-50%) rotate(
+270deg
+);
+    z-index: -9;
+    width: 300px;
+    text-align: center;
+    height: 17%;
+	box-shadow: 0px 0px 15px -4px rgb(87, 87, 87);
+
+}
+
+@media only screen and (max-width:425px){
+	.cardb{
+		margin: 40px 30px;
+	}
+	.pcard2{
+		left: 10%;
+	}
+}
+/* chira */
+.banner .desktop p{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+h1 {
+	color: #f26522 !important;
+}
+h1 strong{
+	color: #f26522 !important;
+}
+h2 strong{
+	color: #f26522 !important;
+}
+h3 strong{
+	color: #f26522 !important;
+}
+.line{
+	height: 2px;
+	width: 150px;
+	background-color: var(--color-blue);
+	margin: 0 auto;
 }
