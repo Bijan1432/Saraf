@@ -26,8 +26,9 @@ h4,
 h5 {
 	margin-top: 5px;
     margin-bottom: 5px;
-
+	/* color:var(--color-blue) ; */
 }
+
 h1 {
     font-size:40px;
     font-weight: 1000;
@@ -35,8 +36,9 @@ h1 {
 h2 {
    font-size:34px ;
    font-weight: 1000;
-
+   /* color:var(--color-blue) ; */
 }
+
 h3{
 	font-size: 28px;
    font-weight: 1000;
@@ -288,6 +290,12 @@ textarea{
 .panel{
 	margin-bottom: 50px;
 	padding: 10px;
+	height: 300px;
+}
+
+.panel p{
+	font-weight: 600;
+	text-align: center;
 }
 
 .media span{
@@ -820,4 +828,48 @@ li{
 
 .padbot3 img{
 	margin-bottom: 10px;
+}
+
+/* =============bijan========================================= */
+.text-color{
+	color: #002157;
+}
+:root{
+
+	--color-blue:#002157;
+}
+
+.section-media .media span {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 5px;
+	position: relative;
+	padding-left: 14px;
+}
+.section-media .media span:before {
+	content: "\f101";
+	font-family: "fontawesome";
+	position: absolute;
+	left: 0;
+	color: #FF8C1C;
+}
+
+@media screen and (max-width: 360px){
+	.panel{	
+	height: auto !important; 
+	}
+}
+
+.about h2{
+	font-weight: bold;
+	color:var(--color-blue) ;
+}
+strong{
+	color:var(--color-blue) ;
+}
+.section-media h1{
+	color:var(--color-blue) ;
+}
+.section-media h4{
+	color:var(--color-blue) ;
 }
