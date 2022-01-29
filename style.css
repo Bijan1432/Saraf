@@ -8,6 +8,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 } 
 
 .padtop{
@@ -33,7 +34,7 @@ h5 {
 
 h1 {
     font-size:40px;
-    font-weight: 1000;
+    /* font-weight: 1000; */
 }
 h2 {
    font-size:34px ;
@@ -60,7 +61,8 @@ h5 {
 
 
 p{
-  font-size:15px;
+  font-size:15px !important;
+ 
 }
 
 ul li{
@@ -262,7 +264,7 @@ textarea{
 .features{
    background-image:linear-gradient(106deg,  #006580, #0A3C71);
    padding: 50px 0px;
-   color: white;
+   color: rgb(0, 0, 0);
 }
 
 .features button{
@@ -299,8 +301,10 @@ textarea{
 }
 
 .panel p{
+	font-size: 15px !important;
 	font-weight: 600;
 	text-align: center;
+	text-align: justify !important;
 }
 
 .media span{
@@ -335,16 +339,16 @@ textarea{
 	background-color: #f1f1f1;
 	padding:30px 10px; 
 	color: black;
-	height: 350px;
+	height: 450px !important;
 	border-radius: 5px;
-	box-shadow: 0 0 10px -1px #000;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .card1 img{
 	padding: 10px;
 	background-color: #0A3C71;
 	border-radius: 50%;
-	box-shadow: 0 0 10px -1px #000;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .card1 p{
@@ -899,7 +903,7 @@ li{
 	background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 15px;
-	height: 350px;
+	height: 535px;
     padding: 30px;
     /* height: 600px;
     padding: 10px 10px; */
@@ -961,4 +965,24 @@ h4 strong{
 	width: 150px;
 	background-color: var(--color-blue);
 	margin: 0 auto;
+}
+
+
+.modal-dialog{
+	width: 700px;
+	
+}
+.modal-dialog td{
+	padding: 0.3em;
+}
+	
+
+.about h4{
+	margin-bottom: 10px;
+}
+.panel{
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.pricecard{
+	margin-bottom: 5%;
 }
