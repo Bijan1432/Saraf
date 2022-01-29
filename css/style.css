@@ -3,7 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+:root{
+	--orange:#F26522;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 } 
@@ -35,7 +37,9 @@ h1 {
 }
 h2 {
    font-size:34px ;
-   font-weight: 1000;
+   font-weight: 800 !important;
+   font-family: sans-serif !important;
+   color:var(--orange);
    /* color:var(--color-blue) ; */
 }
 
@@ -318,6 +322,7 @@ textarea{
 	text-align: center;
 	padding: 10px;
 	height: 350px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .card img{
@@ -330,14 +335,22 @@ textarea{
 	background-color: #f1f1f1;
 	padding:30px 10px; 
 	color: black;
-	height: 260px;
+	height: 350px;
 	border-radius: 5px;
+	box-shadow: 0 0 10px -1px #000;
 }
 
 .card1 img{
 	padding: 10px;
 	background-color: #0A3C71;
 	border-radius: 50%;
+	box-shadow: 0 0 10px -1px #000;
+}
+
+.card1 p{
+	font-size: 14px;
+    font-weight: 300;
+    font-family: sans-serif;
 }
 
 .col-md-4{
@@ -878,7 +891,7 @@ li{
 .price{
 	margin: 10% 0;
 }
-.price li{
+.pcard1 li{
 	list-style: none;
 	position: relative;
 }
@@ -886,8 +899,10 @@ li{
 	background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 15px;
-    height: 600px;
-    padding: 10px 10px;
+	height: 350px;
+    padding: 30px;
+    /* height: 600px;
+    padding: 10px 10px; */
     text-align: center;
     margin-left: 14%;
 	box-shadow: 0px 0px 15px -4px rgb(92, 91, 91);
@@ -904,9 +919,7 @@ li{
     left: 6%;
     padding: 12px 15px;
     /* transform: translate(-40%,-50%); */
-    transform: translate(-43%,-50%) rotate(
-270deg
-);
+    transform: translate(-39%,-50%) rotate(270deg);
     z-index: -9;
     width: 300px;
     text-align: center;
@@ -938,6 +951,9 @@ h2 strong{
 	color: #f26522 !important;
 }
 h3 strong{
+	color: #f26522 !important;
+}
+h4 strong{
 	color: #f26522 !important;
 }
 .line{
