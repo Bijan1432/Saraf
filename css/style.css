@@ -153,7 +153,7 @@ nav ul{
 
 .banner{
   /* background-image: url(https://via.placeholder.com/1919x539); */
-  background-image: url('/images/happy-successful-ACCA.jpg') !important;
+  background-image: url('../images/happy-successful-ACCA.jpg') !important;
   height: 700px;
   padding-top: 100px 10px;
   background-color: rgba(0,0,0,0.4);
