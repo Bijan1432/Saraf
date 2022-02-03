@@ -1500,10 +1500,10 @@ filter: grayscale(0);
 	.navbar-nav {
 		margin-top: 0;
 	}
-	.banner-form{
+/* 	.banner-form{ */
 /* 		margin: auto ; */
-		top: -20px;
-	}
+/* 		top: -20px; */
+/* 	} */
 }
 @media only screen and (max-width:425px) {
 	.form-position{
