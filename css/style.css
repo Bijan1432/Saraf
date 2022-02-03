@@ -1501,7 +1501,7 @@ filter: grayscale(0);
 		margin-top: 0;
 	}
 	.banner-form{
-		margin: auto ;
+/* 		margin: auto ; */
 		top: -20px;
 	}
 }
