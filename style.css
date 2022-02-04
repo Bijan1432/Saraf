@@ -986,3 +986,19 @@ h4 strong{
 .pricecard{
 	margin-bottom: 5%;
 }
+
+
+
+
+
+.v-none{
+	visibility: hidden;
+}
+
+
+@media only screen and(max-width:455px){
+.v-none{
+	display:none;
+}
+
+}
